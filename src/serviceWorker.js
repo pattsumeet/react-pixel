@@ -1,3 +1,6 @@
+
+  
+
 // This optional code is used to register a service worker.
 // register() is not called by default.
 
@@ -45,12 +48,15 @@ export function register(config) {
             'This web app is being served cache-first by a service ' +
               'worker. To learn more, visit https://bit.ly/CRA-PWA'
           );
+          
         });
+
       } else {
         // Is not localhost. Just register service worker
         registerValidSW(swUrl, config);
       }
     });
+
   }
 }
 
