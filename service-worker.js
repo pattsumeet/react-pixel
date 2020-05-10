@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/react-pixel/precache-manifest.3f9a9a8c88f856325d08023c068bdb8a.js"
+  "/react-pixel/precache-manifest.33bebdc5dc9610db0aed7642ed86096a.js"
 );
 
 self.addEventListener('message', (event) => {
@@ -104,7 +104,7 @@ self.addEventListener("fetch", function(event) {
 
     // if (url.origin == location.origin && url.pathname == "/images/pixel.gif") {
         // console.log(url.pathname);
-        if (url.pathname == "/pixel") {
+        if (url.pathname == "/pixel.gif") {
             console.log('inside pixel');
 
             // event.respondWith(
