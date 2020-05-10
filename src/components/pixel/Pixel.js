@@ -19,7 +19,7 @@ class  Pixel extends React.Component {
                 "x3": "utm_campaign",
                 "landing_url": "campaign_url"
             },
-            url: "http://localhost:9000/pixel?interaction=UserClick&client=ad_media&os_name=macos&x1=google&x2=email&x3=pdfconvert&landing_url=abcd1",
+            url: "http://localhost:9000/pixel.gif?interaction=UserClick&client=ad_media&os_name=macos&x1=google&x2=email&x3=pdfconvert&landing_url=abcd1",
             apiResponse: "http://via.placeholder.com/600x500/"
         }
         this.getPixel = this.getPixel.bind(this);

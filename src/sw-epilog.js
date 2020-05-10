@@ -65,7 +65,7 @@ self.addEventListener("fetch", function(event) {
 
     // if (url.origin == location.origin && url.pathname == "/images/pixel.gif") {
         // console.log(url.pathname);
-        if (url.pathname == "/pixel") {
+        if (url.pathname == "/pixel.gif") {
             console.log('inside pixel');
 
             // event.respondWith(
